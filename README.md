@@ -23,3 +23,6 @@ pip install -r requirements.txt
 
 # 3. Run full pipeline
 python main.py
+
+
+Note: While the raw SocioPatterns dataset contains >10,000 interaction logs, the provided pipeline extracts a high-density sub-network of 3,006 nodes (as described in the manuscript) by selecting the top 25,000 strongest contact edges to ensure model stability.
